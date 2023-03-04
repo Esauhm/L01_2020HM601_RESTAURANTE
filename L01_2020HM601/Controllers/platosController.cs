@@ -126,7 +126,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// filtro por cliente 
+        /// filtro por una palabra en el nombre del cliente 
         /// </summary>
         /// <param name="palabra"></param>
         /// <returns></returns>
