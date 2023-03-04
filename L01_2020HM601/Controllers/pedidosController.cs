@@ -19,7 +19,7 @@ namespace L01_2020HM601.Controllers
         }
 
         /// <summary>
-        /// All registros
+        /// All registros de pedidos
         /// </summary>
         /// <returns></returns>
         /// 
@@ -42,7 +42,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// Crear 
+        /// Crear un nuevo pedido
         /// </summary>
         /// <param name="pedidoNuevo"></param>
         /// <returns></returns>
@@ -69,7 +69,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// Actualizar
+        /// Actualizar un pedido
         /// </summary>
         /// <param name="id"></param>
         /// <param name="pedidosModificar"></param>
@@ -101,7 +101,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// Eliminar
+        /// Eliminar un pedido
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -128,7 +128,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// filtro por cliente 
+        /// filtrar pedidos por cliente 
         /// </summary>
         /// <param name="clienteId"></param>
         /// <returns></returns>
@@ -152,7 +152,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// filtro por motorista
+        /// filtrar pedidos por motorista
         /// </summary>
         /// <param name="motoristaId"></param>
         /// <returns></returns>

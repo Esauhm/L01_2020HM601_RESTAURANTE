@@ -20,7 +20,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// All registros
+        /// All registros de clientes
         /// </summary>
         /// <returns></returns>
         /// 
@@ -43,7 +43,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// Crear 
+        /// Crear un nuevo cliente
         /// </summary>
         /// <param name="ClienteNuevo"></param>
         /// <returns></returns>
@@ -70,7 +70,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// Actualizar
+        /// Actualizar un cliente
         /// </summary>
         /// <param name="id"></param>
         /// <param name="clientesModificar"></param>
@@ -100,7 +100,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// Eliminar
+        /// Eliminar un cliente
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -147,9 +147,6 @@ namespace L01_2020HM601.Controllers
 
             return Ok(ListadoClientes);
         }
-
-
-
 
     }
 }

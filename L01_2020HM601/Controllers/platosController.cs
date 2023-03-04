@@ -20,7 +20,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// All registros
+        /// All registros de platos
         /// </summary>
         /// <returns></returns>
         /// 
@@ -43,7 +43,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// Crear 
+        /// Crear plato
         /// </summary>
         /// <param name="platoNuevo"></param>
         /// <returns></returns>
@@ -70,7 +70,7 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// Actualizar
+        /// Actualizar platos
         /// </summary>
         /// <param name="id"></param>
         /// <param name="platosModificar"></param>
@@ -100,8 +100,8 @@ namespace L01_2020HM601.Controllers
 
 
         /// <summary>
-        /// Eliminar
-        /// </summary>
+        /// Eliminar platos
+        /// /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
         /// 
